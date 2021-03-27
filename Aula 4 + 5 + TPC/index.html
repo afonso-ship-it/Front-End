@@ -42,11 +42,13 @@
         <div class="small-6 columns">
           <h1 class="text-center">MONSTER</h1>
           <div class="healthbar">
+            <div class="animate__animated animate__swing">
             <div
               class="healthbar text-center"
               :class="[lowhealthmonster ? 'barra-vermelha' : 'barra-verde']"
               :style="{width:monsterHealth+'%'}"
             ></div>
+            </div>
           </div>
         </div>
       </section>
